@@ -13,3 +13,7 @@ class DataLoadError(CustomError):
 class DataProcessingError(CustomError):
     """Raised when there is an error processing data."""
     pass
+
+class InvalidDataError(CustomError):
+    """Raised when the data is invalid."""
+    pass
